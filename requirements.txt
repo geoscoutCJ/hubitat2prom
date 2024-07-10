@@ -12,3 +12,4 @@ requests==2.31.0
 urllib3==1.26.5
 Werkzeug==2.2.3
 setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
