@@ -1,14 +1,15 @@
-certifi==2022.12.7
+certifi==2024.7.4
 chardet==4.0.0
 click==7.1.2
 Flask==2.2.5
-gunicorn==20.0.4
-idna==2.10
+gunicorn==22.0.0
+idna==3.7
 itsdangerous==1.1.0
-Jinja2==2.11.3
+Jinja2==3.1.4
 MarkupSafe==1.1.1
 PyYAML==5.4.1
-requests==2.31.0
-urllib3==1.26.5
-Werkzeug==2.2.3
-setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+requests==2.32.2
+urllib3==1.26.19
+Werkzeug==3.0.3
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
